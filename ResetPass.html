@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reset Password</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/Style2.css">
+        <link rel="icon" type="img/x-icon" href="img/reset-password-icon.png">
+        <script src="script.js"></script>
+        <body>
+            
+        <div class="center">
+            <h1>Reset Password</h1>
+            <form action="/resetPassword" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+               
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password" required><br>
+          
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+             
+                <input type="submit" value="Reset Password">
+            </form>
+            <p>Back to <a href="index.html">Sign In</a></p>
+           </div>
+        </body>
+    </head>
+</html>
